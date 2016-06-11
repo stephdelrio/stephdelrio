@@ -1548,7 +1548,7 @@
 		border-left: solid 4px #fff;
 		font-style: italic;
 		margin: 0 0 2em 0;
-		padding: 0.5em 0 0.5em 2em;
+		padding: 0.5em 0 0 0em;
 	}
 
 	code {
@@ -2968,7 +2968,7 @@
 			}
 
 			.wrapper.style5 blockquote {
-				border-color: #dfdfdf;
+				border-color: #ffffff;
 			}
 
 			.wrapper.style5 code {
@@ -3921,7 +3921,7 @@
 .custom-quote-style {
 	font-family: "PT Serif",Georgia,Times,"Times New Roman",serif;
 	font-size: 4vw;
-	line-height: 58px;
+	line-height: 80px;
 	text-align: center;
 	margin: 100px 0 100px;
 	letter-spacing: -0.02em;
