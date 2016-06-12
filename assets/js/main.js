@@ -79,6 +79,9 @@
 				$("#menu .close").click(function () {
     			$('body').toggleClass("is-menu-visible");
 				});
+				$("#menu ul > li > a").click(function () {
+    			$('body').toggleClass("is-menu-visible");
+				});
 
 		// Header.
 			if (skel.vars.IEVersion < 9)
