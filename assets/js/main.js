@@ -76,6 +76,9 @@
 					target: $body,
 					visibleClass: 'is-menu-visible'
 				});
+				$("#menu .close").click(function () {
+    			$('body').toggleClass("is-menu-visible");
+				});
 
 		// Header.
 			if (skel.vars.IEVersion < 9)
@@ -94,6 +97,19 @@
 				});
 
 			}
+			//https://github.com/mattboldt/typed.js/blob/master/README.md
+			$(function(){
+				$("#element").typed({
+					strings: ["Researcher", "Designer", "Strategist", "Consultant"],
+					typeSpeed: 100,
+						// loop
+						loop: true,
+            // false = infinite
+            loopCount: false,
+
+          });
+			});
+
 	});
 
 })(jQuery);
@@ -101,6 +117,19 @@
 $(document).ready(function(){
 	
 	$(window).stellar();
+
+// Smooth Scrolling effect
+  var $root = $('html, body');
+      $('#menu a').click(function() {
+          var href = $.attr(this, 'href');
+          $root.animate({
+              scrollTop: $(href).offset().top
+          }, 800, function () {
+              window.location.hash = href;
+          });
+          return false;
+      });
+
 
 });
 

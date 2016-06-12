@@ -3358,13 +3358,13 @@
 		#header.alt {
 			background: transparent;
 		}
-
+			/*header for splash to appear or disappear toggle opacity*/
 			#header.alt h1 {
 				-moz-pointer-events: none;
 				-webkit-pointer-events: none;
 				-ms-pointer-events: none;
 				pointer-events: none;
-				opacity: 1;
+				opacity: 0;
 			}
 
 /* Banner */
@@ -3629,7 +3629,7 @@
 /* Main */
 
 	#main > header {
-		padding: 12em 0 10em 0 ;
+		padding: 12em 0 27em 0 ;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/snapstyle/shopstyle.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/snapstyle/shopstyle.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/snapstyle/shopstyle.jpg");
@@ -3660,7 +3660,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#main > header {
-				padding: 10em 0 17em 0 ;
+				padding: 10em 0 33em 0 ;
 			}
 
 		}
