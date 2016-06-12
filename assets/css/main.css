@@ -1416,7 +1416,7 @@
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				/*font-size: 13pt;*/
 			}
 
 		}
@@ -1463,9 +1463,9 @@
 
 	p {
 		margin: 0 0 2em 0;
-		font-size: 14px;
+/*		font-size: 14px;*/
 	}
-	/*chance header text sizes*/
+	/*change header text sizes*/
 	h1, h2, h3, h4, h5, h6 {
 		color: #999999;
 		font-weight: 0;
@@ -1513,7 +1513,7 @@
 
 	h4 {
 		font-size: 1.5em;
-		line-height: 0em;
+		line-height: 2vw;
 		font-family: "Avenir Next light", Roboto, sans-serif; ;
 	}
 
@@ -2308,7 +2308,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #ed4933;
+			border: 1px solid white;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2318,7 +2318,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #ef5e4a !important;
+				background-color: #333333 !important;
 			}
 
 			input[type="submit"].special:active,
@@ -3411,11 +3411,12 @@
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			display: inline-block;
-			font-size: 1.75em;
+			font-size: 3em;
 			opacity: 1;
 			padding: 0.35em 1em;
 			position: relative;
 			z-index: 1;
+			color: white;
 		}
 
 			#banner h2:before, #banner h2:after {
@@ -3446,12 +3447,12 @@
 			}
 
 		#banner p {
-			letter-spacing: 0.225em;
-			text-transform: uppercase;
+			letter-spacing: 0em;
+			text-transform: none;
 		}
 
 			#banner p a {
-				color: inherit;
+				color: white;
 			}
 
 		#banner .more {
@@ -3524,8 +3525,12 @@
 			opacity: 0;
 		}
 		#banner-typetext {
-			text-align: left;
-			margin-left: 44%;;
+			margin-left: auto;
+    	margin-right: auto;
+    	width: 10em;
+    	color: white;
+    	font-size: 1.5em;
+    	display: -webkit-box;
 		}
 		@media screen and (max-width: 736px) {
 
@@ -3536,7 +3541,7 @@
 			}
 
 				#banner h2 {
-					font-size: 1.25em;
+					font-size: 2em;
 				}
 
 				#banner br {
@@ -3547,9 +3552,10 @@
 					display: none;
 				}
 				#banner-typetext {
-					text-align: left;
-					margin-left: 30%;
-
+					margin-left: auto;
+    			margin-right: auto;
+    			width: 10em;
+    			font-size: 1.1em;
 				}
 		}
 
@@ -3791,10 +3797,10 @@
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephsubway.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephsubway.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephsubway.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephsubway.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3803,7 +3809,7 @@
 	}
 
 	body.landing #footer {
-		background-color: rgba(29, 36, 42, 0.9);
+		background-color: rgba(30, 33, 35, 1);
 	}
 
 	body.is-mobile.landing #page-wrapper {
@@ -3812,13 +3818,13 @@
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephsubway.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephsubway.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephsubway.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephsubway.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: auto;
 	}
 
 	body.is-mobile.landing #footer {
