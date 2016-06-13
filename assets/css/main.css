@@ -1470,7 +1470,7 @@
 		color: #999999;
 		font-weight: 0;
 		letter-spacing: 0em;
-		line-height: 28px;
+		line-height: 1.75em;
 		margin: 0 0 1em 0;
 		font-family: "Avenir Next", Roboto, sans-serif; 
 
@@ -1484,14 +1484,14 @@
 		}
 
 	h2 {
-		font-size: 1.35em;
+		font-size: 2.5em;
 		line-height: 1.75em;
 	}
 
 		@media screen and (max-width: 736px) {
 
 			h2 {
-				font-size: 1.1em;
+				font-size: 1.7em;
 				line-height: 1.65em;
 			}
 
@@ -3647,7 +3647,7 @@
 /* Main */
 
 	#main > header {
-		padding: 12em 0 27em 0 ;
+		padding: 12em 0 42em 0 ;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/snapstyle/shopstyle.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/snapstyle/shopstyle.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/snapstyle/shopstyle.jpg");
