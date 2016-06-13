@@ -1513,7 +1513,7 @@
 
 	h4 {
 		font-size: 1.5em;
-		line-height: 2vw;
+		line-height: 24px;
 		font-family: "Avenir Next light", Roboto, sans-serif; ;
 	}
 
@@ -2318,7 +2318,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #333333 !important;
+				background-color: rgba(30,33,35, 0.7) !important;
 			}
 
 			input[type="submit"].special:active,
@@ -3686,7 +3686,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#main > header {
-				padding: 8em 3em 22em 3em ;
+				padding: 14em 3em 22em 3em ;
 			}
 
 		}
@@ -3694,7 +3694,7 @@
 		@media screen and (max-width: 980px) {
 
 			#main > header {
-				padding: 10em 3em 8em 3em ;
+				padding: 14em 3em 22em 3em ;
 			}
 
 		}
@@ -3702,7 +3702,7 @@
 		@media screen and (max-width: 736px) {
 
 			#main > header {
-				padding: 5em 3em 3em 3em ;
+				padding: 7em 3em 10em 3em ;
 			}
 
 				#main > header h2 {
@@ -3914,7 +3914,7 @@
     padding-top: 71px;
     padding-left: 17px;
     overflow: hidden;
-    margin-left: 100px;
+    margin: 0 auto 0 auto;
 }
 /*Custom CSS styling*/
 
@@ -3940,10 +3940,10 @@
 .custom-quote-style {
 	font-family: "Avenir Next light",Georgia,Times,"Times New Roman",serif;
 	font-size: 4vw;
-	line-height: 80px;
+	line-height: 5vw;
 	text-align: center;
 	margin: 100px 0 100px;
-	letter-spacing: -0.02em;
+	letter-spacing: 0em;
 }
 .case-study-title {
 	font-size: 42px;
