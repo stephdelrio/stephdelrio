@@ -127,7 +127,7 @@ $(document).ready(function(){
           var href = $.attr(this, 'href');
           $root.animate({
               scrollTop: $(href).offset().top
-          }, 800, function () {
+          }, 1200, function () {
               window.location.hash = href;
           });
           return false;
