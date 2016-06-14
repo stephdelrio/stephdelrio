@@ -2507,7 +2507,7 @@
 			-ms-order: 1;
 			order: 1;
 			border-radius: 0;
-			width: 40%;
+			width: 50%;
 		}
 
 			.spotlight .image img {
@@ -2522,7 +2522,7 @@
 			-ms-order: 2;
 			order: 2;
 			max-width: 48em;
-			width: 60%;
+			width: 50%;
 		}
 
 		.spotlight:nth-child(2n) {
@@ -2575,11 +2575,11 @@
 		@media screen and (max-width: 1280px) {
 
 			.spotlight .image {
-				width: 45%;
+				width: 50%;
 			}
 
 			.spotlight .content {
-				width: 55%;
+				width: 50%;
 			}
 
 		}
