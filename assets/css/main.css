@@ -2523,11 +2523,8 @@
 			order: 2;
 			max-width: 48em;
 			width: 50%;
-<<<<<<< HEAD
-=======
 		}
-<<<<<<< HEAD
-=======
+
 		.spotlight .content2 {
 			padding: 2em 2em 0.1em 2em;
 			-moz-order: 2;
@@ -2537,9 +2534,7 @@
 			max-width: 48em;
 			width: 50%;
 			text-align: -webkit-right;
->>>>>>> master
 		}
->>>>>>> gh-pages
 
 		.spotlight:nth-child(2n) {
 			-moz-flex-direction: row-reverse;
