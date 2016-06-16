@@ -217,6 +217,7 @@
 		width: 50%;
 		clear: none;
 		margin-left: 0;
+		margin-bottom: 90px;
 	}
 
 	.\35 u, .\35 u\24 {
@@ -1406,7 +1407,7 @@
 
 	body, input, select, textarea {
 		color: #bbbbbb;
-		font-family: "Avenir Next Light", Roboto, sans-serif;
+		font-family: "Avenir Next" !important;
 		font-size: 1em;
 		font-weight: 0;
 		letter-spacing: 0em;
@@ -1466,14 +1467,14 @@
 /*		font-size: 14px;*/
 	}
 	/*change header text sizes*/
-	h1, h2 {
+/*	h1, h2 {
 		color: #999999;
 		font-weight: 0;
 		letter-spacing: 0em;
 		line-height: 1.75em;
 		margin: 0 0 0 0;
-		font-family: "Avenir Next", Roboto, sans-serif; 	
-		}
+		font-family: "Avenir Next" !important;; 	
+		}*/
 
 	h3, h4, h5, h6 {
 		color: #999999;
@@ -1481,7 +1482,7 @@
 		letter-spacing: 0em;
 		line-height: 1.75em;
 		margin: 0 0 0.2em 0;
-		font-family: "Avenir Next", Roboto, sans-serif; 	
+		font-family: "Avenir Next" !important;; 	
 		}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1520,7 +1521,7 @@
 	h4 {
 		font-size: 1.5em;
 		line-height: 24px;
-		font-family: "Avenir Next light", Roboto, sans-serif; ;
+		font-family: "Avenir Next light" !important;
 	}
 
 	h5 {
@@ -2320,7 +2321,7 @@
 		button.small,
 		.button.small {
 			font-size: 14px;
-			font-family: "Avenir Next";
+			font-family: "Avenir Next" !important;;
 		}
 
 		input[type="submit"].big,
@@ -2723,7 +2724,7 @@
 
 			.wrapper.style1 header.major p {
 				color: #329890;
-				font-family: "Avenir Next";
+				font-family: "Avenir Next" !important;;
 			}
 
 			.wrapper.style1 label {
@@ -3176,6 +3177,44 @@
 
 		}
 
+.case-study {
+	margin-bottom: 0;
+	color: rgba(0,0,0,0.8);
+}
+.wrapper.style5.case-study h1 {
+	font-weight: 700;
+	font-style: normal;
+	font-size: 42px;
+	line-height: 1.15;
+	letter-spacing: -0.02em;
+	color: #2E3842;
+	font-family: "Avenir Next", !important;
+}
+.wrapper.style5.case-study h2 {
+	font-weight: 0;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 1.22;
+  letter-spacing: -.022em;
+  font-family: "Avenir Next", !important;
+	margin-bottom: 0;
+	margin-top: 28px;
+	color: #2E3842;
+}
+.wrapper.style5.case-study p {
+	color: rgba(0,0,0,0.8);
+	font-style: normal;
+	font-size: 21px;
+	line-height: 1.58;
+	letter-spacing: -0.003em;
+	font-family: "Georgia", serif;
+	margin-bottom: 0;
+	margin-top: 22px;
+}
+.wrapper.style5.case-study 
+
+
+
 /* Page Wrapper + Menu */
 
 	#page-wrapper {
@@ -3249,7 +3288,7 @@
 					outline: 0;
 					text-decoration: none;
 					text-transform: uppercase;
-					font-family: "Avenir Next";
+					font-family: "Avenir Next" !important;;
 				}
 
 				#menu ul > li > a:hover {
@@ -3469,7 +3508,7 @@
 			position: relative;
 			z-index: 1;
 			color: white;
-			font-family: "Roboto" !important;
+			font-family: "Avenir Next" !important;
 		}
 
 			#banner h2:before, #banner h2:after {
@@ -3487,7 +3526,7 @@
 				height: 2px;
 				position: absolute;
 				width: 100%;
-				font-family: "Roboto" !important;
+				font-family: "Avenir Next" !important;
 			}
 
 			#banner h2:before {
@@ -3503,10 +3542,13 @@
 		#banner p {
 			letter-spacing: 0em;
 			text-transform: none;
+			color: white;
+			font-family: "Avenir Next" !important;
 		}
 
 			#banner p a {
 				color: white;
+				font-family: "Avenir Next" !important;
 			}
 
 		#banner .more {
@@ -3740,7 +3782,7 @@
 			position: relative;
 			z-index: 1;
 			color: white;
-			font-family: "Roboto" !important;
+			font-family: "Avenir Next" !important;
 		}
 
 
@@ -3754,18 +3796,17 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		text-align: center;
-		margin-top: -3em;
 		height: 100vh;
 		padding: 14em 0 19em 0;
 	}
 
 		#main > header p {
-			font-family: "Avenir Next Light", Roboto, sans-serif;
+			font-family: "Avenir Next" !important;
 			color: white;
 			margin-left: auto;
     	margin-right: auto;
     	font-size: 1.5em;
-    	margin-top: 1.8em;
+    	margin-top: 1.3em;
 		}
 
 			#main > header p a {
@@ -3795,29 +3836,27 @@
 			position: relative;
 			z-index: 1;
 			color: white;
-			font-family: "Roboto" !important;
+			font-family: "Avenir Next" !important;
 		}
 
 	#main2 > header {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMePostit.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMePostit.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMePostit.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMePostit.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMeDumbo.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMeDumbo.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMeDumbo.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMeDumbo.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		text-align: center;
-		margin-top: -3em;
 		height: 100vh;
 		padding: 14em 0 19em 0;
 	}
 
 		#main2 > header p {
-			font-family: "Avenir Next Light", Roboto, sans-serif;
+			font-family: "Avenir Next" !important;
 			color: inherit;
-			letter-spacing: 0.225em;
-			text-transform: uppercase;
+			letter-spacing: 0em;
 			top: 0;
 		}
 
@@ -3876,12 +3915,12 @@
 					padding-left: 0;
 					color: rgba(255, 255, 255, 0.5);
 					font-size: 1em;
-					font-family: "Avenir Next";
+					font-family: "Avenir Next" !important;;
 				}
 
 				#footer .copyright li a {
 					color: rgba(255, 255, 255, 0.5);
-					font-family: "Avenir Next";
+					font-family: "Avenir Next" !important;;
 					font-size: 1em;
 				}
 
@@ -3920,10 +3959,10 @@
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/HouseHero.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/HouseHero.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/HouseHero.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/HouseHero.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMePostit.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMePostit.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMePostit.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMePostit.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3941,10 +3980,10 @@
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/HouseHero.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/HouseHero.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/HouseHero.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/HouseHero.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMePostit.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMePostit.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMePostit.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMePostit.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -3995,6 +4034,7 @@
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephsketch.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephsketch.png");
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephsketch.png");
+		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -4035,7 +4075,7 @@
     padding-top: 71px;
     padding-left: 17px;
     overflow: hidden;
-    margin: 0 auto 0 auto;
+    margin: 43px auto 0 auto;
 }
 .myVideo2 {
     background-image: url("../../images/snapstyle/iphone6smockup2.png");
@@ -4045,36 +4085,58 @@
     padding-top: 71px;
     padding-left: 17px;
     overflow: hidden;
-    margin: 0 auto 0 auto;
+    margin: 43px auto 10px auto;
+}
+
+.videoCaption {
+	margin-top: 0px;
+	font-size: 14px;
+	font-family: "Georgia", serif;
+  line-height: 1.4;
+  color: rgba(0,0,0,.6);
+  letter-spacing: 0;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  position: relative;
+}
+
+.imgCaption {
+	margin-top: 0px;
+	font-size: 14px;
+	font-family: "Georgia", serif;
+  line-height: 1.4;
+  color: rgba(0,0,0,.6);
+  letter-spacing: 0;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  position: relative;
+	width: 100%;
 }
 /*Custom CSS styling*/
 
 .center-images {
 	position: relative;
-	display: inline;
-/*	top: 50%;*/
+  display: table-row;
 	left: 0;
-/*	width: 500px;
-	height: 500px;
-	margin-top: -250px; 
-	margin-left: -250px;*/ 
+	top: 43px;
+	bottom: 43px;
+
 }
 .center-images-2 {
 	position: relative;
 	display: inline;
-/*	top: 50%;*/
 	left: 50%;
-/*	width: 500px;
-	height: 500px;
-	margin-top: -250px;
-	margin-left: -250px;*/
+	top: 43px;
+	bottom: 43px;
  }
 
 .section-margin {
 	margin-top: 50px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
-.section-margin.title-size {
+/*.section-margin.title-size {
 	font-weight: 700;
   font-style: normal;
   font-size: 42px;
@@ -4082,14 +4144,20 @@
   letter-spacing: -0.02em;
 	color: white;
 	font-family: "Avenir Next light", !important;
-}
-.custom-quote-style {
+}*/
+.customQuoteStyle {
 	font-family: "Avenir Next light", !important;
-	font-size: 3em;
-	line-height: 1em;
-	text-align: center;
-	margin: 50px 0 100px 0;
-	letter-spacing: 0em;
+	font-size: 2.25em;
+  line-height: 1em;
+  text-align: center;
+  margin: 50px 0 100px 0;
+  letter-spacing: 0em;
+  font-weight: 400;
+}
+.customQuoteStyle-2 {
+	font-size: larger;
+	font-family: "Georgia", serif;
+	color: rgba(0,0,0,.6);
 }
 .case-study-title {
 	font-size: 42px;
@@ -4100,7 +4168,7 @@
 }
 /*Logo attributes*/
 #logo {
-	font-family: "Roboto" !important;
+	font-family: "Avenir Next" !important;
 	color: #f8f8fa; 
 	font-size: 18px;
 }
@@ -4115,11 +4183,15 @@
 img {
 	width: 100%;
   height: auto;
-/*  transition: -webkit-transform 0.25s ease;*/
 }
-/*img:hover {
-    -webkit-transform: scale(1.2); 
-}*/
+.center-images.pop img {
+	width: 100%;
+  height: auto;
+	transition: -webkit-transform 0.25s ease;
+}
+.center-images.pop img:hover {
+  -webkit-transform: scale(1.5); 
+}
 /*Arrow on Snapstyle page*/
 #main .more {
 			-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
