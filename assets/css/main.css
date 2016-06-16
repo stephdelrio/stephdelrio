@@ -3728,6 +3728,7 @@
 		background-size: cover;
 		text-align: center;
 		margin-top: -3em;
+		height: 100vh;
 	}
 
 		#main > header h2 {
@@ -3803,6 +3804,7 @@
 		background-size: cover;
 		text-align: center;
 		margin-top: -3em;
+		height: 100vh;
 	}
 
 		#main2 > header h2 {
