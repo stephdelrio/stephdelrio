@@ -1967,7 +1967,7 @@
 
 		.image.right {
 			float: right;
-			margin: 0 0 2em 2em;
+			margin: 0 0 0.5em 0.5em;
 			top: 0.25em;
 		}
 
@@ -2638,6 +2638,12 @@
 					text-align: center;
 					width: 100%;
 				}
+				.spotlight .content2 {
+					padding: 4em 3em 2em 3em ;
+					max-width: none;
+					text-align: center;
+					width: 100%;
+				}
 
 		}
 
@@ -2646,7 +2652,9 @@
 			.spotlight .content {
 				padding: 3em 2em 1em 2em ;
 			}
-
+			.spotlight .content2 {
+				padding: 3em 2em 1em 2em ;
+				}
 		}
 
 /* Wrapper */
@@ -3000,6 +3008,7 @@
 		.wrapper.style5 {
 			background-color: #ffffff;
 			color: #4E4852;
+			padding-top: 0.5em;
 		}
 
 			.wrapper.style5 strong, .wrapper.style5 b {
@@ -3577,6 +3586,17 @@
     	font-size: 1.5em;
     	display: -webkit-box;
 		}
+		#main2-typetext-2 {
+			margin-top: 1em;
+			margin-left: auto;
+    	margin-right: auto;
+    	width: 11em;
+    	color: white;
+    	font-size: 1.5em;
+    	display: -webkit-box;
+    	text-transform: none;
+		}
+
 		@media screen and (max-width: 736px) {
 
 			#banner {
@@ -3600,7 +3620,14 @@
 					margin-left: auto;
     			margin-right: auto;
     			width: 10em;
-    			font-size: 1.1em;
+    			font-size: 1.2em;
+				}
+				#main2-typetext-2 {
+					margin-left: auto;
+		    	margin-right: auto;
+		    	width: 10em;
+		    	color: white;
+		    	font-size: 1.2em;
 				}
 		}
 
@@ -3707,6 +3734,7 @@
 		background-size: cover;
 		text-align: center;
 		margin-top: -3em;
+		height: 100vh;
 	}
 
 		#main > header h2 {
@@ -3731,7 +3759,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#main > header {
-				padding: 14em 0 22.5em 0 ;
+				padding: 14em 0 19em 0 ;
 			}
 
 		}
@@ -3739,7 +3767,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#main > header {
-				padding: 14em 3em 22.5em 3em ;
+				padding: 14em 3em 19em 3em ;
 			}
 
 		}
@@ -3747,7 +3775,7 @@
 		@media screen and (max-width: 980px) {
 
 			#main > header {
-				padding: 14em 3em 22.5em 3em ;
+				padding: 14em 3em 19em 3em ;
 			}
 
 		}
@@ -3768,6 +3796,85 @@
 	body.is-mobile #main > header {
 		background-attachment: scroll;
 	}
+
+/* Main 2 */
+
+	#main2 > header {
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMePostit.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMePostit.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMePostit.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMePostit.jpg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+		margin-top: -3em;
+		height: 100vh;
+	}
+
+		#main2 > header h2 {
+			font-family: "Avenir Next Light", Roboto, sans-serif;
+    	font-size: 3em;
+    	margin: 0.5em 0 0 0;
+    	color: white;
+		}
+
+		#main2 > header p {
+			font-family: "Avenir Next Light", Roboto, sans-serif;
+			color: inherit;
+			letter-spacing: 0.225em;
+			text-transform: uppercase;
+			top: 0;
+		}
+
+			#main2 > header p a {
+				font-family: inherit;
+				color: inherit;
+			}
+
+		@media screen and (max-width: 1680px) {
+
+			#main2 > header {
+				padding: 14em 0 19em 0 ;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#main2 > header {
+				padding: 14em 3em 19em 3em ;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#main2 > header {
+				padding: 14em 3em 19em 3em ;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#main2 > header {
+				padding: 11em 3em 10em 3em ;
+			}
+
+				#main2 > header h2 {
+					font-size: 2em;
+					margin: 0 0 1em 0;
+				}
+
+		}
+
+	body.is-mobile #main2 > header {
+		background-attachment: scroll;
+	}
+
+
 
 /* Footer */
 
@@ -3857,10 +3964,10 @@
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs2blur.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs2blur.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs2blur.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs2blur.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3878,10 +3985,10 @@
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs2blur.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs2blur.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs2blur.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephjobs2blur.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: auto;
@@ -3932,7 +4039,6 @@
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephsketch.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephsketch.png");
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephsketch.png");
-		
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -3975,38 +4081,39 @@
     overflow: hidden;
     margin: 0 auto 0 auto;
 }
+.myVideo2 {
+    background-image: url("../../images/snapstyle/iphone6smockup2.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 629px;
+    padding-top: 71px;
+    padding-left: 17px;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+}
 /*Custom CSS styling*/
 
 .center-images {
 	position: relative;
 	display: inline;
-	top: 50%;
-	left: 50%;
-	width: 500px;
+/*	top: 50%;*/
+	left: 0;
+/*	width: 500px;
 	height: 500px;
-	margin-top: -250px; /* Half the height */
-	margin-left: -250px; /* Half the width */
+	margin-top: -250px; 
+	margin-left: -250px;*/ 
 }
 .center-images-2 {
 	position: relative;
 	display: inline;
-	top: 50%;
-	left: 36%;
-	width: 500px;
+/*	top: 50%;*/
+	left: 50%;
+/*	width: 500px;
 	height: 500px;
 	margin-top: -250px;
-	margin-left: -250px;
+	margin-left: -250px;*/
  }
-.center-images-3 {
-	position: relative;
-	display: inline;
-	top: 50%;
-	left: 5%;
-	width: 500px;
-	height: 500px;
-	margin-top: -250px;
-	margin-left: -250px;
- }
+
 .section-margin {
 	margin-top: 50px;
 	margin-bottom: 30px;
@@ -4043,5 +4150,124 @@
 }
 #snapstyle-logo {
 	margin-top: 3em;
+	width: 17em;
+	height: auto;
 }
 
+/*Snapstyle image responsiveness*/
+
+img {
+	width: 100%;
+  height: auto;
+/*  transition: -webkit-transform 0.25s ease;*/
+}
+/*img:hover {
+    -webkit-transform: scale(1.2); 
+}*/
+/*Arrow on Snapstyle page*/
+#main .more {
+			-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
+			-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
+			-ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
+			transition: transform 0.75s ease, opacity 0.75s ease;
+			-moz-transition-delay: 0.5s;
+			-webkit-transition-delay: 0.5s;
+			-ms-transition-delay: 0.5s;
+			transition-delay: 0.5s;
+			-moz-transform: translateY(0);
+			-webkit-transform: translateY(0);
+			-ms-transform: translateY(0);
+			transform: translateY(0);
+			border: none;
+			bottom: 0;
+			color: inherit;
+			font-size: 1em;
+			height: 8.5em;
+			left: 50%;
+			letter-spacing: 0.225em;
+			margin-left: -8.5em;
+			opacity: 1;
+			outline: 0;
+			padding-left: 0.225em;
+			position: absolute;
+			text-align: center;
+			text-transform: uppercase;
+			width: 16em;
+			z-index: 1;
+		}
+#main .more:after {
+				background-image: url("images/arrow.svg");
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: contain;
+				bottom: 4em;
+				content: '';
+				display: block;
+				height: 1.5em;
+				left: 50%;
+				margin: 0 0 0 -0.75em;
+				position: absolute;
+				width: 1.5em;
+			}
+body.is-loading #main .more {
+		-moz-transform: translateY(8.5em);
+		-webkit-transform: translateY(8.5em);
+		-ms-transform: translateY(8.5em);
+		transform: translateY(8.5em);
+		opacity: 0;
+	}
+
+/*Arrow on about me*/
+#main2 .more {
+	-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
+	-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
+	-ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
+	transition: transform 0.75s ease, opacity 0.75s ease;
+	-moz-transition-delay: 0.5s;
+	-webkit-transition-delay: 0.5s;
+	-ms-transition-delay: 0.5s;
+	transition-delay: 0.5s;
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+	border: none;
+	bottom: 0;
+	color: inherit;
+	font-size: 1em;
+	height: 8.5em;
+	left: 50%;
+	letter-spacing: 0.225em;
+	margin-left: -8.5em;
+	opacity: 1;
+	outline: 0;
+	padding-left: 0.225em;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	width: 16em;
+	z-index: 1;
+}
+
+#main2 .more:after {
+	background-image: url("images/arrow.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	bottom: 4em;
+	content: '';
+	display: block;
+	height: 1.5em;
+	left: 50%;
+	margin: 0 0 0 -0.75em;
+	position: absolute;
+	width: 1.5em;
+}
+
+body.is-loading #main2 .more {
+	-moz-transform: translateY(8.5em);
+	-webkit-transform: translateY(8.5em);
+	-ms-transform: translateY(8.5em);
+	transform: translateY(8.5em);
+	opacity: 0;
+}

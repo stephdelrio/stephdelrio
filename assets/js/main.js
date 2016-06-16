@@ -109,8 +109,13 @@
 						loop: true,
             // false = infinite
             loopCount: false,
-
           });
+				$("#element2").typed({
+					strings: ["Honorary Asian", "Coffee Addict", "Songwriter", "Native Brooklynite", "Geography Wiz", "Nerd", "Fire Survivor", "Language Enthusiast"],
+					typeSpeed: 100,
+					loop: true,	       
+	        loopCount: false,
+	      });
 			});
 
 	});
