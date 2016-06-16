@@ -3627,6 +3627,12 @@
 	body.is-loading #banner:after {
 		opacity: 1;
 	}
+	body.is-loading #main:after {
+		opacity: 1;
+	}
+	body.is-loading #main2:after {
+		opacity: 1;
+	}
 
 /* CTA */
 
