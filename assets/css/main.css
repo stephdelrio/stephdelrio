@@ -3929,18 +3929,24 @@
 		background-color: rgba(30, 33, 35, 1);
 		text-align: center;
 	}
-
-		#footer .icons {
-			font-size: 1.25em;
+		#footer > p {
+			margin: 1em 0;
 		}
-
-			#footer .icons a {
-				color: rgba(255, 255, 255, 0.5);
+			#footer > ul {
+				margin-bottom: 1em;
 			}
 
-				#footer .icons a:hover {
-					color: #fff;
+				#footer .icons {
+					font-size: 1.25em;
 				}
+
+					#footer .icons a {
+						color: rgba(255, 255, 255, 0.5);
+					}
+
+						#footer .icons a:hover {
+							color: #fff;
+						}
 
 		#footer .copyright {
 			color: rgba(255, 255, 255, 0.5);
@@ -4408,3 +4414,50 @@ body.is-loading #main2 .more {
 	transform: translateY(8.5em);
 	opacity: 0;
 }
+
+#main2 .wrapper {
+  padding-bottom: 2em;
+}
+
+/*About me CTA*/
+#main2 .actions li {
+	width: 100%;
+  margin: auto;
+  padding: 0 12em;
+}
+#main2 .actions li a.button.small.fit.special {
+	border: 1px solid black;
+  color: black !important;
+  font-size: 14px;
+  font-family: "Avenir Next" !important;
+}
+#main2 .actions li a.button.small.fit.special:hover {
+	color: #ffffff !important;
+}
+		@media screen and (max-width: 1680px) {
+			#main2 .actions li {
+			width: 100%;
+  		margin: auto;
+  		padding: 0 10em;
+			}
+		}
+
+		@media screen and (max-width: 1280px) {
+			#main2 .actions li {
+			width: 100%;
+  		margin: auto;
+  		padding: 0 10em;
+			}
+		}
+
+		@media screen and (max-width: 736px) {
+			#main2 .actions li {
+			width: 100%;
+  		margin: auto;
+  		padding: 0 4em;
+			}
+		}
+
+
+
+
