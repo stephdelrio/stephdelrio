@@ -3686,6 +3686,7 @@
 			width: 0;
 		}
 
+
 	body.is-loading #banner .more {
 		-moz-transform: translateY(8.5em);
 		-webkit-transform: translateY(8.5em);
@@ -3697,9 +3698,32 @@
 	body.is-loading #banner:after {
 		opacity: 1;
 	}
+	body.is-loading #main h2 {
+		-moz-transform: scale(0.95);
+		-webkit-transform: scale(0.95);
+		-ms-transform: scale(0.95);
+		transform: scale(0.95);
+		opacity: 0;
+	}
+
+	body.is-loading #main h2:before, body.is-loading #main h2:after {
+			width: 0;
+		}
 	body.is-loading #main:after {
 		opacity: 1;
 	}
+
+		body.is-loading #main2 h2 {
+		-moz-transform: scale(0.95);
+		-webkit-transform: scale(0.95);
+		-ms-transform: scale(0.95);
+		transform: scale(0.95);
+		opacity: 0;
+	}
+
+		body.is-loading #main2 h2:before, body.is-loading #main2 h2:after {
+			width: 0;
+		}
 	body.is-loading #main2:after {
 		opacity: 1;
 	}
@@ -3764,29 +3788,37 @@
 
 		}
 
+/*#banner h2:before, #banner h2:after {
+				-moz-transition: width 0.85s ease;
+				-webkit-transition: width 0.85s ease;
+				-ms-transition: width 0.85s ease;
+				transition: width 0.85s ease;
+				-moz-transition-delay: 0.25s;
+				-webkit-transition-delay: 0.25s;
+				-ms-transition-delay: 0.25s;
+				transition-delay: 0.25s;
+				background: #fff;
+				content: '';
+				display: block;
+				height: 2px;
+				position: absolute;
+				width: 100%;
+				font-family: "Avenir Next" !important;
+			}
+
+			#banner h2:before {
+				top: 0;
+				left: 0;
+			}
+
+			#banner h2:after {
+				bottom: 0;
+				right: 0;
+			}
+*/
 
 /* Main */
 	
-	#main > header > h2 {
-			-moz-transform: scale(1);
-			-webkit-transform: scale(1);
-			-ms-transform: scale(1);
-			transform: scale(1);
-			-moz-transition: -moz-transform 0.3s ease, opacity 0.3s ease;
-			-webkit-transition: -webkit-transform 0.3s ease, opacity 0.3s ease;
-			-ms-transition: -ms-transform 0.3s ease, opacity 0.3s ease;
-			transition: transform 0.3s ease, opacity 0.3s ease;
-			display: inline-block;
-			font-size: 3em;
-			opacity: 1;
-			padding-top: 1em;
-			position: relative;
-			z-index: 1;
-			color: white;
-			font-family: "Avenir Next" !important;
-		}
-
-
 	#main > header {
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/snapstyle/shopstyle.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/snapstyle/shopstyle.jpg");
@@ -3800,6 +3832,25 @@
 		height: 100vh;
 		padding: 14em 0 19em 0;
 	}
+
+	#main > header > h2 {
+			-moz-transform: scale(1);
+			-webkit-transform: scale(1);
+			-ms-transform: scale(1);
+			transform: scale(1);
+			-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
+			-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
+			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
+			transition: transform 0.5s ease, opacity 0.5s ease;
+			display: inline-block;
+			font-size: 3em;
+			opacity: 1;
+			padding-top: 1em;
+			position: relative;
+			z-index: 1;
+			color: white;
+			font-family: "Avenir Next" !important;
+		}
 
 		#main > header p {
 			font-family: "Avenir Next" !important;
@@ -3821,6 +3872,20 @@
 
 /* Main 2 */
 
+#main2 > header {
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMeDumbo.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMeDumbo.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMeDumbo.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMeDumbo.jpg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+		height: 100vh;
+		padding: 14em 0 19em 0;
+	}
+
 	#main2 > header > h2 {
 			-moz-transform: scale(1);
 			-webkit-transform: scale(1);
@@ -3839,21 +3904,6 @@
 			color: white;
 			font-family: "Avenir Next" !important;
 		}
-
-	#main2 > header {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMeDumbo.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMeDumbo.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMeDumbo.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/aboutMeDumbo.jpg");
-		background-attachment: fixed;
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		text-align: center;
-		height: 100vh;
-		padding: 14em 0 19em 0;
-	}
-
 		#main2 > header p {
 			font-family: "Avenir Next" !important;
 			color: inherit;
@@ -4123,7 +4173,14 @@
 	left: 0;
 	top: 43px;
 	bottom: 43px;
+}
+.center-images > a {
+	border-bottom: 0;
+}
 
+.thumb > img {
+	padding-left: 200px;
+	padding-right: 200px;
 }
 .center-images-2 {
 	position: relative;
@@ -4132,6 +4189,9 @@
 	top: 43px;
 	bottom: 43px;
  }
+.center-images-2 > a {
+	border-bottom: 0;
+}
 
 .section-margin {
 	margin-top: 50px;
@@ -4185,14 +4245,14 @@ img {
 	width: 100%;
   height: auto;
 }
-.center-images.pop img {
+/*.center-images.pop img {
 	width: 100%;
   height: auto;
 	transition: -webkit-transform 0.25s ease;
 }
 .center-images.pop img:hover {
   -webkit-transform: scale(1.5); 
-}
+}*/
 /*Arrow on Snapstyle page*/
 #main .more {
 			-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
