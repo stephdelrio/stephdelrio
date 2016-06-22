@@ -3988,11 +3988,11 @@
 				@media screen and (max-width: 480px) {
 
 					#footer .copyright li {
-						border: 0;
-						display: block;
-						line-height: 1.65em;
-						margin: 0;
-						padding: 0.5em 0;
+				    border: 0;
+				    display: -webkit-inline-box;
+				    line-height: 1.65em;
+				    margin: 0;
+				    padding: 0.5em 10px;
 					}
 
 				}
@@ -4091,10 +4091,10 @@
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephsketch.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephsketch.png");
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/stephsketch.png");
-		background-attachment: fixed;
+		background-attachment: inherit;
 		background-position: center center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: inherit;
 	}
 
 	body.is-mobile.landing #footer {
@@ -4440,6 +4440,11 @@ body.is-loading #main2 .more {
   		margin: auto;
   		padding: 0 10em;
 			}
+
+			.thumb > img {
+				padding-left: 200px;
+				padding-right: 200px;
+}
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -4448,6 +4453,10 @@ body.is-loading #main2 .more {
   		margin: auto;
   		padding: 0 10em;
 			}
+
+			.thumb > img {
+				padding-left: 100px;
+				padding-right: 100px;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -4456,6 +4465,10 @@ body.is-loading #main2 .more {
   		margin: auto;
   		padding: 0 4em;
 			}
+
+			.thumb > img {
+				padding-left: 50px;
+				padding-right: 50px;
 		}
 
 
