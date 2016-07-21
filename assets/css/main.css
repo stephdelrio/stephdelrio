@@ -4434,6 +4434,25 @@ body.is-loading #main2 .more {
 #main2 .actions li a.button.small.fit.special:hover {
 	color: #ffffff !important;
 }
+
+/*scroll to top button*/
+.scrollToTop{
+	width: 1.5em; 
+	height: 1.5em;
+	padding: 10px; 
+	position: fixed;
+  top: 500px;
+  right: 30px;
+	display: none;
+	background: url("images/arrowup.png") no-repeat;
+	background-size: contain;
+	z-index: 2000;
+	text-decoration: none;
+	border-bottom: none;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
 		@media screen and (max-width: 1680px) {
 			#main2 .actions li {
 			width: 100%;
