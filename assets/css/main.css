@@ -4441,8 +4441,8 @@ body.is-loading #main2 .more {
 	height: 1.5em;
 	padding: 10px; 
 	position: fixed;
-  top: 500px;
-  right: 30px;
+  top: 600px;
+  right: 10px;
 	display: none;
 	background: url("images/arrowup.png") no-repeat;
 	background-size: contain;
