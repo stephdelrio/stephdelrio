@@ -108,7 +108,7 @@
 				$("#element2").typed({
 					strings: ["Honorary Asian", "Coffee Addict", "Songwriter", "Native Brooklynite", "Geography Wiz", "Nerd", "Fire Survivor", "Language Enthusiast"],
 					typeSpeed: 100,
-					loop: true,	       
+					loop: true,
 	        loopCount: false,
 	      });
 			});
@@ -118,7 +118,7 @@
 })(jQuery);
 
 $(document).ready(function(){
-	
+
 	$(window).stellar();
 
 // Smooth Scrolling effect
@@ -141,13 +141,13 @@ $(document).ready(function(){
 			$('.scrollToTop').fadeOut();
 		}
 	});
-	
+
 	//Click event to scroll to top
 	$('.scrollToTop').click(function(){
 		$('html, body').animate({scrollTop : 0},800);
 		return false;
 	});
-	
+
 });
 
 
