@@ -119,8 +119,6 @@
 
 $(document).ready(function(){
 
-	$(window).stellar();
-
 // Smooth Scrolling effect
   var $root = $('html, body');
       $('#menu a').click(function() {
