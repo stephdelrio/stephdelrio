@@ -119,7 +119,7 @@
 
 $(document).ready(function(){
 
-	$(window).stellar();
+	// $(window).stellar();
 
 // Smooth Scrolling effect
   var $root = $('html, body');

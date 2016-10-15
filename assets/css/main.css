@@ -2329,6 +2329,7 @@ input[type="submit"].disabled,input[type="submit"]:disabled,input[type="reset"].
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+  margin-top: -1px;
 }
 
 .spotlight .image {
