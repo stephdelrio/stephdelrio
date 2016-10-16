@@ -119,8 +119,11 @@
 
 $(document).ready(function(){
 
+<<<<<<< HEAD
 	// $(window).stellar();
 
+=======
+>>>>>>> gh-pages
 // Smooth Scrolling effect
   var $root = $('html, body');
       $('#menu a').click(function() {
